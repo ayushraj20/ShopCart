@@ -1,9 +1,17 @@
 import './App.css';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <>
-      <h2>ShopCart</h2>
+      <Header
+        color="light"
+        light={true}
+        expand="md"
+        container="lg"
+        fixed="top"
+      />
+      <h4>ShopCart</h4>
     </>
   );
 }
