@@ -1,5 +1,7 @@
 import './App.css';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
+import MainRoutes from './routes/MainRoutes';
 
 function App() {
   return (
@@ -11,7 +13,8 @@ function App() {
         container="lg"
         fixed="top"
       />
-      <h4>ShopCart</h4>
+      <MainRoutes />
+      <Footer />
     </>
   );
 }
