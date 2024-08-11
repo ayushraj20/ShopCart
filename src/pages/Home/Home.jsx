@@ -4,7 +4,7 @@ import './Home.css';
 
 function Home() {
   return (
-    <div className="container welcome-wrapper">
+    <div className="container ">
       <div className="row">
         <h2 className="home-title text-center">Welcome to Shop Cart</h2>
         <div

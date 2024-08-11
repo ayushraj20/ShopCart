@@ -3,7 +3,6 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   UncontrolledDropdown,
   DropdownToggle,
@@ -14,6 +13,7 @@ import {
 
 //CSS imports
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 const Header = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,9 +23,9 @@ const Header = (props) => {
   return (
     <div>
       <Navbar {...props}>
-        <NavbarBrand href="/" className="title">
+        <Link to="/" className="title">
           Shop Cart
-        </NavbarBrand>
+        </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ms-auto" navbar>

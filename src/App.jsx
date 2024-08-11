@@ -13,7 +13,9 @@ function App() {
         container="lg"
         fixed="top"
       />
-      <MainRoutes />
+      <div style={{ marginTop: '5rem' }}>
+        <MainRoutes />
+      </div>
       <Footer />
     </>
   );
